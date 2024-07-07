@@ -1,0 +1,12 @@
+@BaseURL = https://localhost:7108
+
+GET {{BaseURL}}/api/products/get-with-response-cache
+Accept: application/json
+
+###
+GET {{BaseURL}}/api/products/get-with-in-memory-cache
+Accept: application/json
+
+###
+GET {{BaseURL}}/api/products/get-with-redis-cache
+Accept: application/json
