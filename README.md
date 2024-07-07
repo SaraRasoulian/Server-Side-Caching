@@ -1,6 +1,6 @@
 ## Caching
 
-Caching means storing frequently used data in a temporary storage called a cache. Its main purpose is to speed up data delivery to users by avoiding repeated fetching from the original source.
+Caching means storing frequently used data in a temporary storage. Its main purpose is to speed up data delivery to users by avoiding repeated fetching from the original source.
 
 Caching reduces the time and resources needed to fetch data, making systems faster and improving user experience.
 
@@ -41,3 +41,6 @@ In .NET Core, popular options for distributed caching include:
 
 ---
 These caching techniques help optimize application performance, reduce latency, and enhance user experience by delivering data faster and more efficiently.
+
+You can see the implementation of these 3 caching techniques in the sample app in this repository.
+
