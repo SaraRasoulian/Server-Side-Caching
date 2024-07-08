@@ -16,7 +16,7 @@ Response caching is specific to web applications. It means caching the entire HT
 
 ResponseCache attribute has several properties, including `NoStore`, `Duration` and `Location`.
 
-You can also add global response caching using `Caching Middleware` in Program.cs file.
+You can also add global response caching using caching middleware in Program.cs file.
 
 ### 2. In-Memory Caching
 
