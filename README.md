@@ -36,7 +36,19 @@ In .NET Core, popular options for distributed caching include:
 - SQL Server Cache
 - NCache
   
-.NET Core provides `IDistributedCache` interface for managing distributed caching.
+In this repository I implemented `Redis Cache` useing `StackExchange.Redis` NuGet package.
+
+
+#### Run Redis with Docker
+
+Make sure [Docker](https://docs.docker.com/get-docker/) is installed on your machine.
+
+Open a terminal window and execute the following command to run Redis in a Docker container:
+
+```
+docker run --name my-redis -p 6379:6379 -d redis:latest
+```
+
 
 
 ---
