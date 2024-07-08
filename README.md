@@ -56,3 +56,6 @@ These caching techniques help optimize application performance, reduce latency, 
 
 You can see the implementation of these 3 caching techniques in the sample app in this repository.
 
+
+Feel free to create an issue or submit a pull request.
+
