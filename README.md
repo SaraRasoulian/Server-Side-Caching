@@ -28,7 +28,7 @@ In this technique, the application stores temporary data in the main memory (RAM
 
 Distributed caching involves using a shared cache across multiple instances of an application. This avoids the performance bottlenecks of having a large cache on a single server. Data consistency is maintained across servers, even if one server restarts.
 
-Distributed caching is suitable for applications with a microservices architecture.
+Distributed caching is suitable for applications with microservices architecture.
 
 In .NET Core, popular options for distributed caching include:
 
